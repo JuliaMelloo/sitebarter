@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@600;700;800;900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #2A6BBB;
+    padding: 10px;
+  }
+  
+  /* MENU DE CIMA*/
+  .menu {
+    background-color: #2A6BBB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo img {
+    height: 100%;
+    width: 200px;
+  }
+  
+  .menu-items img {
+    width: 50px;
+    margin-right: 10px;
+  }
+
+  /* DIV MEIO*/
+
+  .content {
+    padding: 150px;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    width: auto;
+    height: auto;
+  }
+  
+  /* DIV NOME E FRASE*/
+
+  .title-section {
+    text-align: right;
+    margin-bottom: 10px;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .title-section h1 {
+    width: 100%; 
+    text-align: center;
+    font-size: 110px;
+    font-family: 'Noto Serif Bengali', serif;                             
+    color: #EFEEDA;
+    -webkit-text-stroke: 3px #EF8B01;
+    font-weight: 900;           /* Ajusta a grossura da fonte*/
+    margin-bottom: 30px;                 
+    margin-top: -50px;
+    margin-left: 10px;
+    
+
+  }
+  
+  .title-section p {
+    font-size: 25px;                                                  /* Ajusta o tamanho da fonte*/
+    font-family: 'Noto Serif Bengali', serif;                     /* Ajusta a fonte da letra*/
+    color: #2A6BBB;                                                /* Ajusta a cor*/
+    text-align: justify;                                             /* Ajusta o texto para o meio*/
+    margin-top: 30px;                                                /* Ajusta o espaçamento das divs, as margens da parte de cima*/
+    margin-bottom: 50px;                                             /* Ajusta o espaçamento das divs, as margens da parte de baixo*/
+    border-radius: 30%;                                              /* Ajuste o valor conforme necessário */
+    width: 70%;                                                      /* Ajuste o valor conforme necessário */
+    padding: 5px;                                                     /* Espaçamento interno para o conteúdo */  
+    margin: 0 auto; 
+                                                                                                   
+  }
+  
+  /* DIV LOGIN*/
+
+  .cadastro {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Futura Agora Variável Romana';
+    height: 100%;
+  }
+  
+  .cadastro-box {
+    background-color: #FEC576;
+    padding: 40px;
+    text-align: center;
+    width: 40%;
+    border-radius: 20%;
+    box-shadow: 8px 8px 15px #EF8B01;
+    margin-left: 30%;
+    border-bottom: 30%;
+  }
+  
+  .cadastro-box h2 {
+    font-size: 40px;
+    margin-top: 5px;
+    color: #2A6BBB;
+    font-family: 'Noto Serif Bengali', serif;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+
+  .custom-placeholder::placeholder {
+    color: #F1EDD8; /* Defina a cor desejada */
+  }
+
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .input-container img {
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    background-color: #F6A434;
+    color:#F1EDD8 ;
+  }
+  
+  .btn-entrar {
+    background-color: #719eda;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    color:#2A6BBB;
+    font-size: 15px;
+    font-weight: 100;
+  }
+  
+    .cadastre-se {
+    text-align: center;
+    border-bottom: 10px;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-right: -70px;
+    
+  }
+
+    .btn-cadastre-se {
+    background-color: #FEC576;
+    color: #EF8B01;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    border-right: 50px;
+    box-shadow: 8px 8px 15px #EF8B01;
+  }
+
+  .esqueceu-senha {
+    color: #EF8B01;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    margin-top: 15px;
+    margin-right: -15px;
+  }
+  
+  footer {
+    background-color: #f9f9f9;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 8px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-menu ul {
+    list-style-type: none;
+    padding: 10;
+    margin: 0;
+  }
+  
+  .footer-menu li {
+    display: inline-block;
+    text-align-last: left;
+    margin-right: 100px;
+  }
+  
+  .footer-menu a {
+    color: #4A4A4A;
+    text-decoration: none;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-media img {
+    width: 50px;
+    padding: 10px;
+  }
+  
+  .legal-links {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  
+  .legal-links a {
+    color:#4A4A4A;
+    text-decoration: none;
+    margin-right: 5px;
+  }
+  

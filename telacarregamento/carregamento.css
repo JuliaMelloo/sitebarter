@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family:  'Noto Serif Bengali', serif;
+    background-image: linear-gradient(to right, #EF8C03, #FEAD6E);
+    
+}
+
+.container {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.site-name {
+    font-size: 10vw; /*Tamanho da fonte*/
+    color: #F2EDDA;
+    -webkit-text-stroke: 3px #EF8B01;
+    margin-top: -50px;
+    font-weight: 900; 
+    
+}
+
+.logo {
+    width: 70%;
+    height:10%;
+}
+
